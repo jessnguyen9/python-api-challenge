@@ -129,3 +129,15 @@ Linear regression was performed separately for cities in the Northern and Southe
 
 - Wind speed is more influenced by factors like storms, pressure systems, and geographical features such as mountains and coastlines. The scattered data points, especially in the Northern Hemisphere, suggest that extreme wind speeds in some regions may be outliers rather than part of a clear trend.
 
+## Challenges
+- **Data Inconsistencies:** While using real-time weather data from the OpenWeatherMap API, some cities provided inconsistent or incomplete weather attributes.
+- **Geographic Distribution:** The random city selection via latitude and longitude may not have perfectly captured cities across a wide range of climates.
+- **Linear Regression Limitations:** Although linear regression provided some insights, it may not have fully captured the complexities of weather patterns, particularly with weak correlations between latitude and weather attributes. 
+
+## Future Improvements
+- **Advanced Weather Models:** Rather than using basic linear regression, more advanced statistical techniques or machine learning models could be applied to better understand the relationships between latitude and weather variables.
+- **Seasonal Considerations:** Weather patterns are influenced by seasonal changes, and this analysis could be expanded to incorporate data from different times of the year to account for seasonal variation.
+- **Enhanced Data Visualization:** While scatter plots provided valuable insights, using interactive visualizations with tools like Plotly or Dash could help users explore data trends more effectively.
+
+## Conclusion
+The project successfully explored the relationship between latitude and key weather attributes such as temperature, humidity, cloudiness, and wind speed. Although the analysis revealed some interesting trends, particularly regarding temperature and latitude, other factors such as altitude, ocean currents, and geographical features play significant roles in shaping weather patterns. The results showed that temperature is strongly influenced by latitude, while humidity, cloudiness, and wind speed have weaker correlations with latitude.
