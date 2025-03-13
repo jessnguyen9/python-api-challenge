@@ -50,4 +50,31 @@ Created scatter plots to visualize trends:
 
 Used Matplotlib for clear, insightful visualizations
 
+## Linear Regression Analysis
+Linear regression was performed separately for cities in the Northern and Southern Hemispheres.
+
+### Latitude vs. Temperature
+**Northern Hemisphere Linear Regression**
+
+![Temperature vs  Latitude Linear Regression Plot Northern](https://github.com/user-attachments/assets/2c2a4d81-f28e-4050-b168-9ab3be835dcf)
+
+- R-value: -0.777672630162631
+
+**Southern Hemisphere Linear Regression**
+
+![Temperature vs  Latitude Linear Regression Plot Southern](https://github.com/user-attachments/assets/bce17606-9e90-4e0e-8fda-b504aeb588b8)
+
+- R-value: 0.8321341504647478
+
+**Key Insights: Latitude vs. Temperature**
+
+- The closer a city is to the equator, the warmer it tends to be. On the other hand, temperatures drop as you move toward the North or South Pole. This pattern is clear in both hemispheres, but it’s slightly stronger in the Southern Hemisphere.
+
+- One possible reason is that the Southern Hemisphere has more ocean, which helps keep temperatures more stable. In contrast, the Northern Hemisphere has more land, leading to bigger temperature changes.
+
+- However, not all cities follow this pattern exactly. Some are warmer or colder than expected due to things like altitude, ocean currents, or local weather. This shows that while latitude is important, other factors also play a role in temperature.
+
+
+
+
 
