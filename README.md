@@ -38,8 +38,16 @@ Created scatter plots to visualize trends:
 
 - **Latitude vs. Humidity:** Assessed humidity distribution across latitudes
 
+![City Max Latitude vs  Humidity (2022-10-18)](https://github.com/user-attachments/assets/c7ab30c9-d902-4fd6-bbb8-44477ea2ed7c)
+
 - **Latitude vs. Cloudiness:** Identified cloud cover patterns
+
+![City Latitude vs  Cloudiness (2022-10-18)](https://github.com/user-attachments/assets/404b6a30-90b4-487c-94ed-4d8cdc19e274)
 
 - **Latitude vs. Wind Speed:** Analyzed how wind speed changes with latitude
 
+![City Latitude vs  Wind Speed (2022-10-18)](https://github.com/user-attachments/assets/a7740722-afc7-4a6f-a594-cfbc90c0a569)
+
 Used Matplotlib for clear, insightful visualizations
+
+
